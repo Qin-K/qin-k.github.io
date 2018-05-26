@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>秦凯的博客</title>
+  
+  <subtitle>大学在线</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-05-26T12:00:01.229Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Qin Kai</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hi</title>
+    <link href="http://yoursite.com/2018/05/26/Hi/"/>
+    <id>http://yoursite.com/2018/05/26/Hi/</id>
+    <published>2018-05-26T11:04:33.000Z</published>
+    <updated>2018-05-26T12:00:01.229Z</updated>
+    
+    <content type="html"><![CDATA[<p>创建博客</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;创建博客&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
