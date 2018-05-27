@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-27T05:27:04.091Z</updated>
+  <updated>2018-05-27T05:30:15.303Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/05/27/code/"/>
     <id>http://yoursite.com/2018/05/27/code/</id>
     <published>2018-05-27T04:54:54.000Z</published>
-    <updated>2018-05-27T05:27:04.091Z</updated>
+    <updated>2018-05-27T05:30:15.303Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">printf(&quot;hello world&quot;);</span><br><span class="line">cout&lt;&lt;&quot;hello world&quot;;</span><br></pre></td></tr></table></figure><p>fdja<br>dfasj<br>df</p><h1 id="jdfkadf"><a href="#jdfkadf" class="headerlink" title="jdfkadf"></a>jdfkadf</h1><h2 id="fjdadsfsa"><a href="#fjdadsfsa" class="headerlink" title="fjdadsfsa"></a>fjdadsfsa</h2><p><em>fdja</em><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">print &quot;hello world&quot;</span><br><span class="line">def main():</span><br><span class="line">print(&quot;this is python&quot;)</span><br></pre></td></tr></table></figure></p><ul><li>hello</li><li><p>world  </p><ul><li>fdjadsfj</li><li>dfasfdjkas</li><li>fdjsajf<ul><li>fdasj</li><li>fdjasjfsa</li><li>dfasjf<ul><li>fdajs</li><li>fsadjf</li></ul></li></ul></li></ul></li><li><p>fdhas</p></li><li>fdash<ol><li>hello</li><li>djfas</li><li>fdjlasj</li></ol></li></ul><blockquote><p>zehshifjdsaj</p></blockquote><blockquote><blockquote><p>dfashdas</p><blockquote><p>fdjasjfas</p></blockquote></blockquote></blockquote><p><img src="../../images/img.png =100x100" alt="logo"></p>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">printf(&quot;hello world&quot;);</span><br><span class="line">cout&lt;&lt;&quot;hello world&quot;;</span><br></pre></td></tr></table></figure><p>fdja<br>dfasj<br>df</p><h1 id="jdfkadf"><a href="#jdfkadf" class="headerlink" title="jdfkadf"></a>jdfkadf</h1><h2 id="fjdadsfsa"><a href="#fjdadsfsa" class="headerlink" title="fjdadsfsa"></a>fjdadsfsa</h2><p><em>fdja</em><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">print &quot;hello world&quot;</span><br><span class="line">def main():</span><br><span class="line">print(&quot;this is python&quot;)</span><br></pre></td></tr></table></figure></p><ul><li>hello</li><li><p>world  </p><ul><li>fdjadsfj</li><li>dfasfdjkas</li><li>fdjsajf<ul><li>fdasj</li><li>fdjasjfsa</li><li>dfasjf<ul><li>fdajs</li><li>fsadjf</li></ul></li></ul></li></ul></li><li><p>fdhas</p></li><li>fdash<ol><li>hello</li><li>djfas</li><li>fdjlasj</li></ol></li></ul><blockquote><p>zehshifjdsaj</p></blockquote><blockquote><blockquote><p>dfashdas</p><blockquote><p>fdjasjfas</p></blockquote></blockquote></blockquote><p><img src="../../images/img.png =100x" alt="logo"></p>]]></content>
     
     <summary type="html">
     
