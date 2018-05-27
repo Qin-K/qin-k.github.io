@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-27T04:55:28.907Z</updated>
+  <updated>2018-05-27T04:57:00.689Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/05/27/code/"/>
     <id>http://yoursite.com/2018/05/27/code/</id>
     <published>2018-05-27T04:54:54.000Z</published>
-    <updated>2018-05-27T04:55:28.907Z</updated>
+    <updated>2018-05-27T04:57:00.689Z</updated>
     
-    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">printf(&quot;hello world&quot;);</span><br><span class="line">cout&lt;&lt;&quot;hello world&quot;;</span><br></pre></td></tr></table></figure><p>fdja<br>dfasj<br>df</p><p>#jdfkadf</p><p>##fjdadsfsa</p><p><em>fdja</em><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">print &quot;hello world&quot;</span><br><span class="line">def main():</span><br><span class="line">print(&quot;this is python&quot;)</span><br></pre></td></tr></table></figure></p>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">printf(&quot;hello world&quot;);</span><br><span class="line">cout&lt;&lt;&quot;hello world&quot;;</span><br></pre></td></tr></table></figure><p>fdja<br>dfasj<br>df</p><p>#jdfkadf#</p><p>##fjdadsfsa#</p><p><em>fdja</em><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">print &quot;hello world&quot;</span><br><span class="line">def main():</span><br><span class="line">print(&quot;this is python&quot;)</span><br></pre></td></tr></table></figure></p>]]></content>
     
     <summary type="html">
     
