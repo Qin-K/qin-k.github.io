@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-05-26T13:12:48.459Z</updated>
+  <updated>2018-05-26T12:27:23.125Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>测试</title>
-    <link href="http://yoursite.com/2018/05/26/%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2018/05/26/测试/</id>
-    <published>2018-05-26T13:12:24.000Z</published>
-    <updated>2018-05-26T13:12:48.459Z</updated>
-    
-    <content type="html"><![CDATA[<p>python</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;python&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
-    
-  </entry>
   
   <entry>
     <title>Hi</title>
