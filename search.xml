@@ -3,6 +3,29 @@
   
     
     <entry>
+      <title>利用Opera浏览器简单实现科学上网(翻墙)</title>
+      <link href="/2018/06/02/%E5%88%A9%E7%94%A8Opera%E6%B5%8F%E8%A7%88%E5%99%A8%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91-%E7%BF%BB%E5%A2%99/"/>
+      <url>/2018/06/02/%E5%88%A9%E7%94%A8Opera%E6%B5%8F%E8%A7%88%E5%99%A8%E7%AE%80%E5%8D%95%E5%AE%9E%E7%8E%B0%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91-%E7%BF%BB%E5%A2%99/</url>
+      <content type="html"><![CDATA[<h3 id="1-下载opera浏览器"><a href="#1-下载opera浏览器" class="headerlink" title="1.下载opera浏览器"></a>1.下载opera浏览器</h3><p>官网可能下载不了，推荐在360软件商店中进行下载。<br><img src="/2018/06/02/利用Opera浏览器简单实现科学上网-翻墙/download-opera.png&quot;" alt=""></p><h3 id="2-设置本地位置"><a href="#2-设置本地位置" class="headerlink" title="2.设置本地位置"></a>2.设置本地位置</h3><p>以win10为例， 进入控制面板找到时钟和区域点击更改位置。设置为香港特别行政区。<br><img src="/2018/06/02/利用Opera浏览器简单实现科学上网-翻墙/set-locality.png&quot;" alt=""></p><h3 id="3-打开opera浏览器进行设置"><a href="#3-打开opera浏览器进行设置" class="headerlink" title="3.打开opera浏览器进行设置"></a>3.打开opera浏览器进行设置</h3><p>打开opera浏览器在设置中找到隐私和安全，然后启用vpn。<br><img src="/2018/06/02/利用Opera浏览器简单实现科学上网-翻墙/set-opera.png&quot;" alt=""></p><h3 id="4-大功告成"><a href="#4-大功告成" class="headerlink" title="4.大功告成"></a>4.大功告成</h3><p>大家就可以愉快地上网了。<br><img src="/2018/06/02/利用Opera浏览器简单实现科学上网-翻墙/over.png&quot;" alt=""></p>]]></content>
+      
+      <categories>
+          
+          <category> windows日常 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 翻墙 </tag>
+            
+            <tag> windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Github上Markdown语法总结</title>
       <link href="/2018/05/28/Github%E4%B8%8AMarkdown%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/"/>
       <url>/2018/05/28/Github%E4%B8%8AMarkdown%E8%AF%AD%E6%B3%95%E6%80%BB%E7%BB%93/</url>
