@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-06-02T07:46:47.057Z</updated>
+  <updated>2018-06-24T11:44:36.746Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>正则表达式</title>
+    <link href="http://yoursite.com/2018/06/24/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    <id>http://yoursite.com/2018/06/24/正则表达式/</id>
+    <published>2018-06-24T11:12:29.000Z</published>
+    <updated>2018-06-24T11:44:36.746Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="正则表达式概述"><a href="#正则表达式概述" class="headerlink" title="正则表达式概述"></a>正则表达式概述</h1><p>正则表达式，⼜称正规表示式、正规表示法、正规表达式、规则表达式、常<br>规表示法（英语：Regular Expression，在代码中常简写为regex、regexp或<br>RE），是计算机科学的⼀个概念。正则表达式使⽤单个字符串来描述、匹配<br>⼀系列匹配某个句法规则的字符串。在很多⽂本编辑器⾥，正则表达式通常<br>被⽤来检索、替换那些匹配某个模式的⽂本。<br>Regular Expression的“Regular”⼀般被译为“正则”、“正规”、“常规”。此处<br>的“Regular”即是“规则”、“规律”的意思，Regular Expression即“描述某种规则<br>的表达式”之意。</p><h1 id="re模块操作"><a href="#re模块操作" class="headerlink" title="re模块操作"></a>re模块操作</h1><p>在Python中需要通过正则表达式对字符串进行匹配的时候，需要使用re模块。</p><h2 id="match"><a href="#match" class="headerlink" title="match"></a>match</h2><p>re.match是⽤来进⾏正则匹配检查的⽅法，若字符串匹配正则<br>表达式，则match⽅法返回匹配对象（Match Object），否则<br>返回None（注意不是空字符串””）。<br>匹配对象Macth Object具有group⽅法，⽤来返回字符串的匹<br>配部分。<br>re.match()能够匹配出以XXX开头的字符串<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 导入模块</span></span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line">result = re.match(正则表达式， 要匹配的字符串)</span><br><span class="line"></span><br><span class="line">使用group方法来提取数据</span><br><span class="line">result.group()</span><br></pre></td></tr></table></figure></p><h2 id="示例-匹配以hello开头的语句"><a href="#示例-匹配以hello开头的语句" class="headerlink" title="示例(匹配以hello开头的语句)"></a>示例(匹配以hello开头的语句)</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">import re</span><br><span class="line">result = re.match(&quot;hello&quot;, &quot;hello world&quot;)</span><br><span class="line">result.group()</span><br><span class="line">``` </span><br><span class="line">运行结果为：</span><br></pre></td></tr></table></figure><p>hello<br><code>`</code></p><h1 id="表示字符"><a href="#表示字符" class="headerlink" title="表示字符"></a>表示字符</h1><p>正则表达式的单字符匹配</p><table><thead><tr><th style="text-align:center">字符</th><th>功能</th></tr></thead><tbody><tr><td style="text-align:center">.</td><td>匹配任意一个字符(除了\n)</td></tr><tr><td style="text-align:center">[]</td><td>匹配[]中列举的字符</td></tr><tr><td style="text-align:center">\d</td><td>匹配数字0-9</td></tr><tr><td style="text-align:center">\D</td><td>匹配非数字</td></tr><tr><td style="text-align:center">\s</td><td>匹配空白(空格/tab键)</td></tr><tr><td style="text-align:center">\S</td><td>匹配非空格</td></tr><tr><td style="text-align:center">\w</td><td>匹配单词字符(a-z、 A-Z、 0-9、 _)</td></tr><tr><td style="text-align:center">\W</td><td>匹配费单词字符</td></tr></tbody></table><h1 id="表示数量"><a href="#表示数量" class="headerlink" title="表示数量"></a>表示数量</h1><p>正则表达式的多个字符匹配</p><table><thead><tr><th style="text-align:center">字符</th><th>功能</th></tr></thead><tbody><tr><td style="text-align:center">*</td><td>匹配前一个字符出现0次或者无限次(可有可无)</td></tr><tr><td style="text-align:center">+</td><td>匹配前一个字符出现1次或者无限次(至少又一次)</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;正则表达式概述&quot;&gt;&lt;a href=&quot;#正则表达式概述&quot; class=&quot;headerlink&quot; title=&quot;正则表达式概述&quot;&gt;&lt;/a&gt;正则表达式概述&lt;/h1&gt;&lt;p&gt;正则表达式，⼜称正规表示式、正规表示法、正规表达式、规则表达式、常&lt;br&gt;规表示法（英语：Regul
+      
+    
+    </summary>
+    
+      <category term="语言无关类" scheme="http://yoursite.com/categories/%E8%AF%AD%E8%A8%80%E6%97%A0%E5%85%B3%E7%B1%BB/"/>
+    
+    
+      <category term="正则表达式" scheme="http://yoursite.com/tags/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>利用Opera浏览器简单实现科学上网(翻墙)</title>
