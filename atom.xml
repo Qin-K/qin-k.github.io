@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-02T13:22:21.736Z</updated>
+  <updated>2018-07-02T13:31:19.630Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,20 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>mysql</title>
-    <link href="http://yoursite.com/2018/07/02/mysql/"/>
-    <id>http://yoursite.com/2018/07/02/mysql/</id>
-    <published>2018-07-02T13:22:21.000Z</published>
-    <updated>2018-07-02T13:22:21.736Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>正则表达式</title>
