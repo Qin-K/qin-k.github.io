@@ -88,7 +88,7 @@
 <meta property="og:site_name" content="秦凯的博客">
 <meta property="og:description" content="正则表达式概述正则表达式，⼜称正规表示式、正规表示法、正规表达式、规则表达式、常规表示法（英语：Regular Expression，在代码中常简写为regex、regexp或RE），是计算机科学的⼀个概念。正则表达式使⽤单个字符串来描述、匹配⼀系列匹配某个句法规则的字符串。在很多⽂本编辑器⾥，正则表达式通常被⽤来检索、替换那些匹配某个模式的⽂本。Regular Expression的“Regul">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-09-24T13:51:15.793Z">
+<meta property="og:updated_time" content="2018-09-24T13:54:57.093Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="正则表达式">
 <meta name="twitter:description" content="正则表达式概述正则表达式，⼜称正规表示式、正规表示法、正规表达式、规则表达式、常规表示法（英语：Regular Expression，在代码中常简写为regex、regexp或RE），是计算机科学的⼀个概念。正则表达式使⽤单个字符串来描述、匹配⼀系列匹配某个句法规则的字符串。在很多⽂本编辑器⾥，正则表达式通常被⽤来检索、替换那些匹配某个模式的⽂本。Regular Expression的“Regul">
@@ -423,7 +423,7 @@
       
 
       
-        <h1 id="正则表达式概述"><a href="#正则表达式概述" class="headerlink" title="正则表达式概述"></a>正则表达式概述</h1><p>正则表达式，⼜称正规表示式、正规表示法、正规表达式、规则表达式、常规表示法（英语：Regular Expression，在代码中常简写为regex、regexp或RE），是计算机科学的⼀个概念。正则表达式使⽤单个字符串来描述、匹配⼀系列匹配某个句法规则的字符串。在很多⽂本编辑器⾥，正则表达式通常<br>被⽤来检索、替换那些匹配某个模式的⽂本。Regular Expression的“Regular”⼀般被译为“正则”、“正规”、“常规”。此处的“Regular”即是“规则”、“规律”的意思，Regular Expression即“描述某种规则的表达式”之意。</p>
+        <h1 id="正则表达式概述"><a href="#正则表达式概述" class="headerlink" title="正则表达式概述"></a>正则表达式概述</h1><p>正则表达式，⼜称正规表示式、正规表示法、正规表达式、规则表达式、常规表示法（英语：Regular Expression，在代码中常简写为regex、regexp或RE），是计算机科学的⼀个概念。正则表达式使⽤单个字符串来描述、匹配⼀系列匹配某个句法规则的字符串。在很多⽂本编辑器⾥，正则表达式通常被⽤来检索、替换那些匹配某个模式的⽂本。Regular Expression的“Regular”⼀般被译为“正则”、“正规”、“常规”。此处的“Regular”即是“规则”、“规律”的意思，Regular Expression即“描述某种规则的表达式”之意。</p>
 <h1 id="re模块操作"><a href="#re模块操作" class="headerlink" title="re模块操作"></a>re模块操作</h1><p>在Python中需要通过正则表达式对字符串进行匹配的时候，需要使用re模块。</p>
 <h2 id="match"><a href="#match" class="headerlink" title="match"></a>match</h2><p>re.match是⽤来进⾏正则匹配检查的⽅法，若字符串匹配正则表达式，则match⽅法返回匹配对象（Match Object），否则返回None（注意不是空字符串””）。匹配对象Macth Object具有group⽅法，⽤来返回字符串的匹配部分。re.match()能够匹配出以XXX开头的字符串<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 导入模块</span></span><br><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line">result = re.match(正则表达式， 要匹配的字符串)</span><br><span class="line"></span><br><span class="line">使用group方法来提取数据</span><br><span class="line">result.group()</span><br></pre></td></tr></table></figure></p>
 <h2 id="示例-匹配以hello开头的语句"><a href="#示例-匹配以hello开头的语句" class="headerlink" title="示例(匹配以hello开头的语句)"></a>示例(匹配以hello开头的语句)</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">In [<span class="number">2</span>]: result = re.match(<span class="string">"hello"</span>, <span class="string">"hello world"</span>)</span><br><span class="line"></span><br><span class="line">In [<span class="number">3</span>]: result.group()</span><br><span class="line">Out[<span class="number">3</span>]: <span class="string">'hello'</span></span><br></pre></td></tr></table></figure>
