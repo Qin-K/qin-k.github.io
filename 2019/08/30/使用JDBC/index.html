@@ -74,7 +74,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="java,数据库," />
 
 
 
@@ -87,16 +87,24 @@
 
 
 
-<meta name="description" content="Only dead fish go with the flow.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="秦凯的博客">
-<meta property="og:url" content="http://qin-kai.com/categories/windows日常/index.html">
+<meta name="description" content="jdbc的定义  JDBC（Java DataBase Connectivity,java数据库连接）是一种用于执行SQL语句的Java API，可以为多种关系数据库提供统一访问，它由一组用Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序  准备环境  jdk 1.8 mysql-5.7.23-winx64 mysql-">
+<meta name="keywords" content="java,数据库">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用JDBC">
+<meta property="og:url" content="http://qin-kai.com/2019/08/30/使用JDBC/index.html">
 <meta property="og:site_name" content="秦凯的博客">
-<meta property="og:description" content="Only dead fish go with the flow.">
+<meta property="og:description" content="jdbc的定义  JDBC（Java DataBase Connectivity,java数据库连接）是一种用于执行SQL语句的Java API，可以为多种关系数据库提供统一访问，它由一组用Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序  准备环境  jdk 1.8 mysql-5.7.23-winx64 mysql-">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/006Cx571gy1g47g9tyti8j30e703ha9w.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/006Cx571gy1g47gamgxlhj30e8037q2t.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/006Cx571gy1g47gb0ffk4j30he03sdfs.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/006Cx571gy1g47gbe8q5jj30h703w0so.jpg">
+<meta property="og:image" content="https://ws1.sinaimg.cn/large/006Cx571gy1g47gdf8moyj30gh03d747.jpg">
+<meta property="og:updated_time" content="2019-08-30T08:31:18.924Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="秦凯的博客">
-<meta name="twitter:description" content="Only dead fish go with the flow.">
+<meta name="twitter:title" content="使用JDBC">
+<meta name="twitter:description" content="jdbc的定义  JDBC（Java DataBase Connectivity,java数据库连接）是一种用于执行SQL语句的Java API，可以为多种关系数据库提供统一访问，它由一组用Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序  准备环境  jdk 1.8 mysql-5.7.23-winx64 mysql-">
+<meta name="twitter:image" content="https://ws1.sinaimg.cn/large/006Cx571gy1g47g9tyti8j30e703ha9w.jpg">
 
 
 
@@ -126,13 +134,13 @@
 
 
 
-  <link rel="canonical" href="http://qin-kai.com/categories/windows日常/"/>
+  <link rel="canonical" href="http://qin-kai.com/2019/08/30/使用JDBC/"/>
 
 
 
 
 
-  <title>分类: windows日常 | 秦凯的博客</title>
+  <title>使用JDBC | 秦凯的博客</title>
   
 
 
@@ -151,7 +159,7 @@
     
   
 
-  <div class="container sidebar-position-left ">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -289,55 +297,276 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block category">
+  <div id="posts" class="posts-expand">
+    
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>windows日常<small>分类</small>
-        </h1>
-      </div>
+  
 
-      
-        
+  
+  
+  
 
   <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://qin-kai.com/2019/08/30/使用JDBC/">
 
-      <h2 class="post-title">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Qin Kai">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="秦凯的博客">
+    </span>
+
+    
+      <header class="post-header">
+
         
-            <a class="post-title-link" href="/2018/06/02/利用Opera浏览器简单实现科学上网-翻墙/" itemprop="url">
-              
-                <span itemprop="name">利用Opera浏览器简单实现科学上网(翻墙)</span>
-              
-            </a>
         
-      </h2>
+          <h1 class="post-title" itemprop="name headline">使用JDBC</h1>
+        
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-06-02T13:47:45+08:00"
-              content="2018-06-02" >
-          06-02
-        </time>
-      </div>
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-08-30T16:29:12+08:00">
+                2019-08-30
+              </time>
+            
 
-    </header>
-  </article>
+            
 
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/javaEE/" itemprop="url" rel="index">
+                    <span itemprop="name">javaEE</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  766
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  4
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><strong>jdbc的定义</strong></p>
+<blockquote>
+<p>JDBC（Java DataBase Connectivity,java数据库连接）是一种用于执行SQL语句的Java API，可以为多种关系数据库提供统一访问，它由一组用Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序</p>
+</blockquote>
+<p><strong>准备环境</strong></p>
+<ul>
+<li>jdk 1.8</li>
+<li>mysql-5.7.23-winx64</li>
+<li>mysql-connector-java-5.1.7-bin.jar</li>
+</ul>
+<p><strong>使用jdbc的基本步骤</strong></p>
+<ol>
+<li><p>注册驱动</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Class.forName(<span class="string">"com.mysql.jdbc.Driver"</span>);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>建立数据库连接</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Connection conn = DriverManager.getConnection(url, username, password);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>创建Statement(PrepareStatement)对象</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">PrepareStatement ps = conn.prepareStatement(sql);</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>执行sql语句得到ResultSet结果集</p>
+<p><em>PrepareStatement基本使用</em></p>
+<ul>
+<li>executeQuery()     <em>查询</em></li>
+<li>executeUptate()  <em>增删改</em></li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ResultSet rs = ps.executeQuery();</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>遍历结果集</p>
+<p><em>ResultSet获取结果</em></p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">while</span> (rs.next()) &#123;<span class="comment">/*获取结果*/</span>&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>释放资源 <em>释放资源时的顺序 ResultSet-&gt;PrepareStatement-&gt;Connection</em></p>
+</li>
+</ol>
+<p><strong>简单JDBC实例</strong></p>
+<p>(1) 工具类，获取连接对象，和释放资源</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 获取Connection对象</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Connection <span class="title">getConnection</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Connection conn = <span class="keyword">null</span>;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        Class.forName(<span class="string">"com.mysql.jdbc.Driver"</span>); <span class="comment">// 加载数据库驱动</span></span><br><span class="line">        conn = DriverManager.getConnection(<span class="string">"jdbc:mysql://localhost:3306/jdbctest"</span>, <span class="string">"root"</span>, <span class="string">"admin"</span>); <span class="comment">// 建立数据库连接</span></span><br><span class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">        e.printStackTrace();</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> conn;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 释放资源</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">release</span><span class="params">(Connection conn, Statement st, ResultSet rs)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (rs != <span class="keyword">null</span>) &#123;</span><br><span class="line">            rs.close();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (st != <span class="keyword">null</span>) &#123;</span><br><span class="line">            st.close();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (conn != <span class="keyword">null</span>) &#123;</span><br><span class="line">            conn.close();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125; <span class="keyword">catch</span> (SQLException e) &#123;</span><br><span class="line">        e.printStackTrace();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>（2）使用jdbc实现基本增删改查</p>
+<ul>
+<li><p>准备表格</p>
+<p><img src="https://ws1.sinaimg.cn/large/006Cx571gy1g47g9tyti8j30e703ha9w.jpg"></p>
+</li>
+</ul>
+<ol>
+<li><p>insert 增加</p>
+<p>向表中插入两条数据, qinkai 20, zhangsan 20, id根据表中自增长。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">insert</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Connection conn = JDBCUtil.getConnection();</span><br><span class="line">    String sql = <span class="string">"insert into student values(null,?,?)"</span>;</span><br><span class="line">    PreparedStatement ps = <span class="keyword">null</span>;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        ps = conn.prepareStatement(sql);</span><br><span class="line">        ps.setString(<span class="number">1</span>,<span class="string">"qinkai"</span>);</span><br><span class="line">        ps.setInt(<span class="number">2</span>,<span class="number">20</span>);</span><br><span class="line">        ps.executeUpdate();</span><br><span class="line"></span><br><span class="line">        ps.setString(<span class="number">1</span>, <span class="string">"zhangsan"</span>);</span><br><span class="line">        ps.setInt(<span class="number">2</span>,  <span class="number">20</span>);</span><br><span class="line">        ps.executeUpdate();</span><br><span class="line">    &#125; <span class="keyword">catch</span> (SQLException e) &#123;</span><br><span class="line">        e.printStackTrace();</span><br><span class="line">        JDBCUtil.release(<span class="keyword">null</span>, ps, conn);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>插入成功表中数据</p>
+<p><img src="https://ws1.sinaimg.cn/large/006Cx571gy1g47gamgxlhj30e8037q2t.jpg"></p>
+</li>
+<li><p>query 查询</p>
+<p>查询表所有数据，并打印</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">query</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Connection conn = JDBCUtil.getConnection();</span><br><span class="line">    String sql = <span class="string">"select * from student"</span>;</span><br><span class="line">    PreparedStatement ps = <span class="keyword">null</span>;</span><br><span class="line">    ResultSet rs = <span class="keyword">null</span>;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        ps = conn.prepareStatement(sql);</span><br><span class="line">        rs = ps.executeQuery();</span><br><span class="line">        <span class="keyword">while</span>(rs.next()) &#123;</span><br><span class="line">            <span class="keyword">int</span> id = rs.getInt(<span class="string">"id"</span>);</span><br><span class="line">            String name = rs.getString(<span class="string">"name"</span>);</span><br><span class="line">            <span class="keyword">int</span> age = rs.getInt(<span class="string">"age"</span>);</span><br><span class="line">            System.out.println(id + <span class="string">" "</span> +  <span class="string">" "</span> + name + <span class="string">" "</span> + age);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125; <span class="keyword">catch</span> (SQLException e) &#123;</span><br><span class="line">        e.printStackTrace();</span><br><span class="line">        JDBCUtil.release(rs, ps, conn);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>控制台结果显示</p>
+<p><img src="https://ws1.sinaimg.cn/large/006Cx571gy1g47gb0ffk4j30he03sdfs.jpg"></p>
+</li>
+<li><p>update 修改</p>
+<p>通过id修改id为4的姓名为lisi，修改完成后查询。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">update</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Connection conn = JDBCUtil.getConnection();</span><br><span class="line">    String sql = <span class="string">"update student set name=? where id =?"</span>;</span><br><span class="line">    PreparedStatement ps = <span class="keyword">null</span>;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        ps = conn.prepareStatement(sql);</span><br><span class="line">        ps.setString(<span class="number">1</span>, <span class="string">"lisi"</span>);</span><br><span class="line">        ps.setInt(<span class="number">2</span>, <span class="number">4</span>);</span><br><span class="line">        ps.executeUpdate();</span><br><span class="line">        query();</span><br><span class="line">    &#125; <span class="keyword">catch</span> (SQLException e) &#123;</span><br><span class="line">        e.printStackTrace();</span><br><span class="line">        JDBCUtil.release(<span class="keyword">null</span>, ps, conn);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>修改后，查询控制台显示</p>
+<p><img src="https://ws1.sinaimg.cn/large/006Cx571gy1g47gbe8q5jj30h703w0so.jpg"></p>
+</li>
+<li><p>delete 删除</p>
+<p>通过name条件删除lisi的数据，删除后查询</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@Test</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">delete</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Connection conn = JDBCUtil.getConnection();</span><br><span class="line">    String sql = <span class="string">"delete from student where name=?"</span>;</span><br><span class="line">    PreparedStatement ps = <span class="keyword">null</span>;</span><br><span class="line">    <span class="keyword">try</span> &#123;</span><br><span class="line">        ps = conn.prepareStatement(sql);</span><br><span class="line">        ps.setString(<span class="number">1</span>, <span class="string">"lisi"</span>);</span><br><span class="line">        ps.executeUpdate();</span><br><span class="line"></span><br><span class="line">        query();</span><br><span class="line">    &#125; <span class="keyword">catch</span> (SQLException e) &#123;</span><br><span class="line">        e.printStackTrace();</span><br><span class="line">        JDBCUtil.release(<span class="keyword">null</span>, ps, conn);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>删除后，控制台显示结果。</p>
+<p><img src="https://ws1.sinaimg.cn/large/006Cx571gy1g47gdf8moyj30gh03d747.jpg"></p>
+</li>
+</ol>
 
       
     </div>
+    
+    
+    
 
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/java/" rel="tag"># java</a>
+          
+            <a href="/tags/数据库/" rel="tag"># 数据库</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/06/24/正则表达式/" rel="next" title="正则表达式">
+                <i class="fa fa-chevron-left"></i> 正则表达式
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/08/30/hexo-github搭建个人博客/" rel="prev" title="hexo+github搭建个人博客">
+                hexo+github搭建个人博客 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -345,6 +574,15 @@
 
 
           
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zNjg1Mi8xMzM4OA=="></div>
+    </div>
+
+  
+
+
 
         </div>
         
@@ -385,7 +623,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -396,7 +634,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -407,7 +645,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">6</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -496,14 +734,26 @@
   <span class="author" itemprop="copyrightHolder">Qin Kai</span>
 
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">7.5k</span>
+  
 </div>
 
 
 
-<div class="theme-info">
-  <div class="powered-by"></div>
-  <span class="post-count">Site words total count:3.7k</span>
-</div>
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>
+    <span class="post-meta-divider">|</span>
+    <span id="busuanzi_container_site_uv">本站访客数<span id="busuanzi_value_site_uv"></span>人</span>
+
         
 
 
@@ -607,6 +857,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -635,6 +889,17 @@
 
 
 
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
   
 
 
