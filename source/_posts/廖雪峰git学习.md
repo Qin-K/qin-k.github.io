@@ -77,7 +77,7 @@ git log
 
 现在有test01，test02，test03三个版本。
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4q7wck3muj30j809faae.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161104.png"/>
 
 只显示一行:
 
@@ -85,7 +85,7 @@ git log
 git log --pretty=oneline
 ```
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4q7x8fhbsj30i9023jrc.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161126.png"/>
 
 - 那一串黄色的字符代表的是 `commit id`，是一个SHA1计算出来的一个非常大的数字，用十六进制表示。
 - 每提交一个新版本，实际上Git就会把它们自动串成一条时间线。
@@ -153,13 +153,13 @@ HEAD is now at 9a9ff40 test03
 git reflog
 ```
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4q8hgc0vcj30gw03n74b.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161151.png"/>
 
 可以查看命令历史以及对应的commit id，然后通过commit id进行版本回退。
 
 ## 工作区和暂存区
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571gy1g4qcsaqs9zj30cq06igmk.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161209.png"/>
 
 ### 工作区
 
@@ -180,15 +180,15 @@ Git的版本库里存了很多东西，其中最重要的就是称为stage（或
 
 修改readme.txt中的内容。创建一个新文件LICENSE使用git status。	`readme.txt`被修改，`LICENSE`从来没有被添加过，状态时`Untracked`。
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571gy1g4qd05erauj30ju06swek.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161228.png"/>
 
 使用`git add`将两个文件都添加到暂存区。再使用`git status`查看
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571gy1g4qd3juy5nj30je03z3ye.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161246.png"/>
 
 现在暂存区的状态
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571gy1g4qd4c333xj30is08sgn3.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161300.png"/>
 
 `git add`命令实际上就是把要提交的所有修改放到暂存区（Stage），然后，执行`git commit`就可以一次性把暂存区的所有修改提交到分支。
 
@@ -209,9 +209,7 @@ nothing to commit, working tree clean
 
 最后暂存区的状态
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571gy1g4qd76op58j30cv06ijs7.jpg"/>
-
-
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161317.png"/>
 
 ### 管理修改
 
@@ -221,7 +219,7 @@ Git跟踪并管理的是修改，而非文件。
 
 Git管理的是修改，当你用`git add`命令后，在工作区的第一次修改被放入暂存区，准备提交，但是，在工作区的第二次修改并没有放入暂存区，所以，`git commit`只负责把暂存区的修改提交了，也就是第一次的修改被提交了，第二次的修改不会被提交。
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4r8yvz5ktj30le0bt3zp.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161330.png"/>
 
 要想提交第二次修改，继续`git add`然后`git commit`。可以不急着`add`第一次修改，等两次修改后在一起`git commit`: 第一次修改->`git add` -> 第二次修改 -> `git add` -> `git commit`。
 
@@ -394,13 +392,13 @@ Git支持多种协议，默认的`git://`使用ssh，但也可以使用`https`�
 
 `HEAD`严格来说不是指向提交，而是指向`master`，`master`才是指向提交的，所以，`HEAD`指向的就是当前分支。
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4razriqltj308d047mx1.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161356.png"/>
 
 每次提交，`master`分支都会向前移动一步，这样，随着你不断提交，`master`分支的线也越来越长。
 
 当我们创建新的分支，例如`dev`时，Git新建了一个指针叫`dev`，指向`master`相同的提交，再把`HEAD`指向`dev`，就表示当前分支在`dev`上：
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4rb0ffmyxj30a706hmx3.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161413.png"/>
 
 创建一个`dev`分支，然后切换到`dev`分支
 
@@ -429,7 +427,7 @@ $ git branch
 
 在当前`dev` 分支对readme.txt进行修改并且提交，然后切换到master分支。重新查看readme.txt中的内容，文件没有改变。
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4rb7hyo7ij30bn066wef.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161425.png"/>
 
 把`dev`分支的工作成果合并到`master`分支上：
 
@@ -456,7 +454,7 @@ $ git branch -d dev
 
 现在`master`和`feature1`各分别有新的提交，变成这样:
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4rby3ffygj30bt07kjre.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161441.png"/>
 
 这种情况下，Git无法执行“快速合并”，只能试图把各自的修改合并起来，但这种合并就可能会有冲突
 
@@ -471,7 +469,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 
 Git告诉我们，`readme.txt`文件存在冲突，必须手动解决冲突后再提交。`git status`也可以告诉我们冲突的文件：
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4rc06aoc4j30ik05x74a.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161457.png"/>
 
 查看readme.txt文件中的内容:
 
@@ -488,11 +486,11 @@ test0333344
 
 Git用`<<<<<<<`，`=======`，`>>>>>>>`标记出不同分支的内容。然后根据具体情况修改readme.txt中的内容，然后重新添加提交解决冲突。
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4rc5kjf3rj30jh02o749.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161511.png"/>
 
 现在`master`分支和`feature1`分支变成了这样:
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4rc6omopwj30ns0a10t9.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161530.png"/>
 
 查看分支合并情况:
 
@@ -500,7 +498,7 @@ Git用`<<<<<<<`，`=======`，`>>>>>>>`标记出不同分支的内容。然后�
 $ git log --graph --pretty=oneline --abbrev-commit
 ```
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4rc94j3dwj30km0a3aak.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161544.png"/>
 
 ### 分支管理策略
 
@@ -519,11 +517,11 @@ Merge made by the 'recursive' strategy.
 
 使用`git  log`查看分支历史。
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4rche8p29j30ed02wjrb.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161559.png"/>
 
 不是用`Fast forward`模式，merge之后:
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4rciubed8j30dc075jrd.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161611.png"/>
 
 #### 分支策略
 
@@ -537,7 +535,7 @@ Merge made by the 'recursive' strategy.
 
 所以，团队合作的分支看起来就像这样：
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571ly1g4rcnjng76j30du03haa2.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161621.png"/>
 
 
 
@@ -691,11 +689,11 @@ $ git branch --set-upstream-to=origin/dev dev
 
 多人在同一个分支上协作时，很容易出现冲突。即使没有冲突，后push的童鞋不得不先pull，在本地合并，然后才能push成功。每次合并再push后，分支变成了这样：
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571gy1g4rgpjpvqgj30nw0bmmxq.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161638.png"/>
 
 在本地创建修改rebase.txt，然后push时远程已经修改，必须使用`git pull`拉取远程的修改。最后使用`git log `,显然提交历史分叉了。
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571gy1g4rh8103m5j30l202hglm.jpg"/>  
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161648.png"/>  
 
 使用`git rebase`
 
@@ -709,11 +707,11 @@ Applying: 第二次修改rebase
 
 再使用`git log`查看原本分叉的提交现在变成一条直线了。
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571gy1g4rhbou62rj30ib02zdfw.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161701.png"/>
 
 通过push操作把本地分支推送到远程后再查看`git log`。远程提交的git 历史也变成了一条直线。
 
-<img src="https://ws1.sinaimg.cn/large/006Cx571gy1g4rhfq5780j30i002eweh.jpg"/>
+<img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161716.png"/>
 
 这就是rebase操作的特点：把分叉的提交历史“整理”成一条直线，看上去更直观。缺点是本地的分叉提交已经被修改过了。
 
@@ -764,7 +762,7 @@ v1.0
 
 - 查看标签信息 git show \<tagname>
 
-  <img src="https://ws1.sinaimg.cn/large/006Cx571gy1g4rhtivc2aj30nb07bdg0.jpg"/>
+  <img src="https://raw.githubusercontent.com/Qin-K/picGo/master/img/20190904161740.png"/>
 
 - 创建带有说明的标签git tag -a -m
 
