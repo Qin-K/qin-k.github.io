@@ -1,5 +1,5 @@
 ---
-title: 廖雪峰git学习
+title: 廖雪峰git学习记录
 date: 2019-07-07 16:05:51
 categories: 工具
 tags: git

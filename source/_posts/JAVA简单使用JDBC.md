@@ -1,5 +1,5 @@
 ---
-title: 使用JDBC
+title: JAVA简单使用JDBC
 date: 2019-08-30 16:29:12
 tags: 
 	- java

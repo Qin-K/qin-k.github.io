@@ -1,5 +1,5 @@
 ---
-title: mybatis-generator插件使用
+title: mybatis-generator插件的使用
 date: 2019-08-26 14:26:47
 categories: mybatis
 tags: mybatis
