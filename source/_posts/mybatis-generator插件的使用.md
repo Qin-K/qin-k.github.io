@@ -5,7 +5,9 @@ categories: mybatis
 tags: mybatis
 ---
 
-# Mybatis-generator使用
+MyBatis Generator 是 MyBatis 提供的一个代码生成工具。可以帮我们生成 表对应的持久化对象(po)、操作数据库的接口(dao)、CRUD sql的xml(mapper)。
+
+MyBatis Generator 是一个独立工具，你可以下载它的jar包来运行、也可以在 Ant 和 maven 运行。
 
 ## **在pom.xml中引入插件**
 
@@ -40,7 +42,9 @@ tags: mybatis
 </plugin>
 ```
 
-在resources目录下添加generatorConfig.xml文件
+## 添加generatorConfig.xml文件
+
+在resources目录下添加generatorConfig.xml文件：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -205,4 +209,3 @@ nullCatalogMeansCurrent=true
         　　false：这是默认值。如果设置为false,则MyBatis Generator会将数据库中实际的字段名字转换为Camel Case风格作为生成的实体类的属性名。-->
         </table>
 ```
-

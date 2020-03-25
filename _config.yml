@@ -6,14 +6,14 @@
 title: 秦凯的博客
 subtitle: 一只计算机小菜鸟
 description: Only dead fish go with the flow.
-keywords:
+keywords: 秦凯的博客 博客 个人 hexo
 author: Qin Kai
 language: zh-Hans
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://qin-kai.com
+url: http://blog.qin-kai.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

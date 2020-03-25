@@ -1,13 +1,11 @@
 ---
 title: 'jenkins入门介绍, 常见应用集成'
 date: 2019-07-08 14:42:03
-categories: jenkins
+categories: 工具
 tags: 
 	- jenkins
 	- devops 
 ---
-
-# Jenkins
 
 ## 什么是Jenkins
 

@@ -129,6 +129,7 @@ scheme: Pisces
 social:
   GitHub: https://github.com/Qin-K || github
   微博: http://weibo.com/wqinkai || weibo
+  E-Mail: mailto:qinkkai@foxmail.com || envelope
 # Usage: `Key: permalink || icon`
 # Key is the link label showing to end users.
 # Value before `||` delimeter is the target permalink.
@@ -147,8 +148,6 @@ social:
 
 social_icons:
   enable: true
-  微博: weibo
-  GitHub: github
   icons_only: false
   transition: false
 
@@ -156,8 +155,6 @@ social_icons:
 links_icon: link
 links_title: Links
 links:
-  百度: http://www.baidu.com/
-  知乎: http://www.zhihu.com/
   leetcode: https://leetcode-cn.com/
 links_layout: block
 #links_layout: inline
@@ -263,7 +260,7 @@ post_wordcount:
 
 # Declare license on posts
 post_copyright:
-  enable: false
+  enable: true
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
 

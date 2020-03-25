@@ -5,9 +5,6 @@ tags: linux
 categories: linux
 ---
 
-
-# Linux用户和组管理
-
 ## Linux中用户和组相关文件
 
 ### /etc/passwd

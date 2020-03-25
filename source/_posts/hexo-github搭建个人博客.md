@@ -2,12 +2,11 @@
 title: hexo+github搭建个人博客
 date: 2019-08-30 16:40:24
 tags:
+	- 工具
 	- hexo
 categories:
-	- 建站
+	- 工具
 ---
-
-# Hexo+github搭建个人博客
 
 ## 环境准备
 

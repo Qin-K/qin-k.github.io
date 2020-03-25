@@ -5,7 +5,7 @@ categories: 工具
 tags: git
 ---
 
-# Git教程
+这篇博客，主要是记录自己通过[廖雪峰老师网站](https://www.liaoxuefeng.com/wiki/896043488029600)学习Git的笔记。
 
 ## Git是什么
 
