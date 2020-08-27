@@ -1,7 +1,7 @@
 ---
 title: Github上Markdown语法总结
 date: 2018-05-28 14:36:23
-categories: 实用工具
+categories: 工具
 tags: Markdown
 ---
 ## 标题
