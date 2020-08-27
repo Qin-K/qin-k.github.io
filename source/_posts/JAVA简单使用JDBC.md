@@ -12,6 +12,8 @@ jdbc的定义
 
 > JDBC（Java DataBase Connectivity,java数据库连接）是一种用于执行SQL语句的Java API，可以为多种关系数据库提供统一访问，它由一组用Java语言编写的类和接口组成。JDBC提供了一种基准，据此可以构建更高级的工具和接口，使数据库开发人员能够编写数据库应用程序
 
+<!--more-->
+
 ## 准备环境
 
 - jdk 1.8

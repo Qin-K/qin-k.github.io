@@ -19,6 +19,8 @@ categories:
 npm install hexo-cli -g
 ```
 
+<!--more-->
+
 ## 利用hexo搭建一个博客
 
 **创建博客目录qin-k.github.io**

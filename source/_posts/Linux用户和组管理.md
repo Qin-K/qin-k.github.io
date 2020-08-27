@@ -23,6 +23,8 @@ name:password:UID:GID:comment:directory:shell
 - directory：用户家目录的绝对路径；
 - shell：用户的默认shell。
 
+<!--more-->
+
 ### /etc/shadow
 
 存储用户密码信息

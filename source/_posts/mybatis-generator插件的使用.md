@@ -9,6 +9,8 @@ MyBatis Generator 是 MyBatis 提供的一个代码生成工具。可以帮我�
 
 MyBatis Generator 是一个独立工具，你可以下载它的jar包来运行、也可以在 Ant 和 maven 运行。
 
+<!--more-->
+
 ## **在pom.xml中引入插件**
 
 ```xml
