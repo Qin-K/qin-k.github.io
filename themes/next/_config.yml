@@ -47,7 +47,7 @@ rss: /atom.xml
 footer:
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
-  since: 2018
+  since:
 
   # Icon between year and copyright info.
   icon: user
@@ -202,7 +202,7 @@ sidebar:
   offset: 12
 
   # Back to top in sidebar (only for Pisces | Gemini).
-  b2t: false
+  b2t: true
 
   # Scroll percent label in b2t button.
   scrollpercent: false

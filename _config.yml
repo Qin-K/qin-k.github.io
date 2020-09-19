@@ -78,9 +78,13 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:Qin-K/qin-k.github.io.git
-  branch: master
+  - type: git
+    repo: git@github.com:Qin-K/qin-k.github.io.git
+    branch: master
+    
+  - type: git
+    repo: git@e.coding.net:qin-kai/blog/blog.git
+    branch: master 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 plugins: hexo-generate-feed
