@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.qin-kai.com/"/>
-  <updated>2020-09-22T01:55:49.476Z</updated>
+  <updated>2020-09-22T01:24:41.641Z</updated>
   <id>http://blog.qin-kai.com/</id>
   
   <author>
@@ -15,27 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>hexo-test</title>
-    <link href="http://blog.qin-kai.com/2020/09/22/hexo-test/"/>
-    <id>http://blog.qin-kai.com/2020/09/22/hexo-test/</id>
-    <published>2020-09-22T01:55:21.000Z</published>
-    <updated>2020-09-22T01:55:49.476Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="this-is-a-test"><a href="#this-is-a-test" class="headerlink" title="this is a test"></a>this is a test</h2>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h2 id=&quot;this-is-a-test&quot;&gt;&lt;a href=&quot;#this-is-a-test&quot; class=&quot;headerlink&quot; title=&quot;this is a test&quot;&gt;&lt;/a&gt;this is a test&lt;/h2&gt;
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>Linux用户和组管理</title>
