@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.qin-kai.com/2020/09/22/hexo-test/</loc>
+    
+    <lastmod>2020-09-22T01:55:49.476Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.qin-kai.com/tags/index.html</loc>
     
     <lastmod>2020-09-22T01:24:41.645Z</lastmod>
@@ -23,14 +30,14 @@
   </url>
   
   <url>
-    <loc>http://blog.qin-kai.com/categories/index.html</loc>
+    <loc>http://blog.qin-kai.com/archives/index.html</loc>
     
     <lastmod>2020-09-22T01:24:41.644Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://blog.qin-kai.com/archives/index.html</loc>
+    <loc>http://blog.qin-kai.com/categories/index.html</loc>
     
     <lastmod>2020-09-22T01:24:41.644Z</lastmod>
     
@@ -58,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://blog.qin-kai.com/2019/09/03/Linux%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84%E7%AE%A1%E7%90%86/</loc>
+    <loc>http://blog.qin-kai.com/2019/08/30/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
     
     <lastmod>2020-09-22T01:24:41.641Z</lastmod>
     
@@ -72,7 +79,7 @@
   </url>
   
   <url>
-    <loc>http://blog.qin-kai.com/2019/08/30/hexo-github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>http://blog.qin-kai.com/2019/09/03/Linux%E7%94%A8%E6%88%B7%E5%92%8C%E7%BB%84%E7%AE%A1%E7%90%86/</loc>
     
     <lastmod>2020-09-22T01:24:41.641Z</lastmod>
     
