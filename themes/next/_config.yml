@@ -80,7 +80,7 @@ footer:
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in main hexo config.
 # subtitle: Subtitle
@@ -389,13 +389,13 @@ changyan:
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: false
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
-  avatar: mm # gravatar style
+  enable: true
+  appid: QdOj2zks4NqVRQMH0lug7x8v-gzGzoHsz
+  appkey: KfdXNGkgvLMu8yqYDMAwooF2
+  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: true # Verification code
+  placeholder: 发表一下你的看法吧 # comment box placeholder
+  avatar: wavatar # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
 
@@ -406,7 +406,7 @@ valine:
 
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: MTAyMC8zNjg1Mi8xMzM4OA==
+# livere_uid: MTAyMC8zNjg1Mi8xMzM4OA==
 
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
@@ -502,7 +502,7 @@ needmoreshare2:
 # user_id must NOT be null when admin_enable is true!
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
-  ua_enable: true
+  ua_enable: false
   admin_enable: false
   user_id: 123456
   admin_nickname: Qin Kai
@@ -548,9 +548,9 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: QdOj2zks4NqVRQMH0lug7x8v-gzGzoHsz
+  app_key: KfdXNGkgvLMu8yqYDMAwooF2
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
@@ -564,21 +564,22 @@ firestore:
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
-busuanzi_count:
-  # count values only if the other configs are false
-  enable: false
-  # custom uv span for the whole site
-  site_uv: true
-  site_uv_header: <i class="fa fa-user"></i> 总访问人数
-  site_uv_footer:
-  # custom pv span for the whole site
-  site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i> 访问总量
-  site_pv_footer: 次
-  # custom pv span for one page only
-  page_pv: true
-  page_pv_header: <i class="fa fa-eye"></i> 阅读次数
-  page_pv_footer: 
+#busuanzi计数通过js脚本引入
+#busuanzi_count:
+#  # count values only if the other configs are false
+#  enable: false
+#  # custom uv span for the whole site
+#  site_uv: true
+#  site_uv_header: <i class="fa fa-user"></i> 总访问人数
+#  site_uv_footer:
+#  # custom pv span for the whole site
+#  site_pv: true
+#  site_pv_header: <i class="fa fa-eye"></i> 访问总量
+#  site_pv_footer: 次
+#  # custom pv span for one page only
+#  page_pv: true
+#  page_pv_header: <i class="fa fa-eye"></i> 阅读次数
+#  page_pv_footer: 
 
 
 # Tencent analytics ID
