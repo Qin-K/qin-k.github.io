@@ -4,10 +4,10 @@
 
 # Site
 title: 秦凯的博客
-subtitle: 一只计算机小菜鸟
-description: Only dead fish go with the flow.
-keywords: 秦凯的博客 博客 个人 hexo
-author: Qin Kai
+subtitle: 记录成长的地方
+description: -- Java小码农
+keywords: 秦凯,博客,个人,码农,程序员,后端,分布式,hexo,java,spring,springboot,linux,redis,kafka
+author: 秦凯
 language: zh-Hans
 timezone:
 
@@ -15,7 +15,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://blog.qin-kai.com
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :title.html
 permalink_defaults:
 
 # Directory
