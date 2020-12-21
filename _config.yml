@@ -83,7 +83,7 @@ deploy:
     branch: master
     
   - type: git
-    repo: git@e.coding.net:qin-kai/blog/blog.git
+    repo: git@e.coding.net:qin-kai/coding-demo/blog.git
     branch: master 
 # Extensions
 ## Plugins: http://hexo.io/plugins/
